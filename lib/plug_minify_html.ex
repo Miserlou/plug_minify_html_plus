@@ -20,7 +20,8 @@ defmodule PlugMinifyHtml do
 
         body =
           document
-          |> Floki.raw_html()
+          |> Floki.filter_out(:comment)
+          |> Floki.raw_html(pretty: false)
 
         %Plug.Conn{conn | resp_body: body}
 

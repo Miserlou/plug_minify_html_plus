@@ -1,16 +1,18 @@
-# PlugMinifyHtml
+# plug_minify_html_plus
 
 **A Plug that minifies HTML response body**
+
+This is a fork of [s0kil/plug_minify_html](https://github.com/s0kil/plug_minify_html), which appears abandonded at time of writing, with some enhancements, specifically removing comments.
 
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `plug_minify_html` to your list of dependencies in `mix.exs`:
+by adding `plug_minify_html_plus` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:plug_minify_html, "~> 0.1.0"}
+    {:plug_minify_html, "~> 0.2.0"}
   ]
 end
 ```

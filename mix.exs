@@ -3,10 +3,10 @@ defmodule PlugMinifyHtml.MixProject do
 
   def project do
     [
-      app: :plug_minify_html,
-      version: "0.1.0",
+      app: :plug_minify_html_plus,
+      version: "0.2.0",
       elixir: "~> 1.10",
-      source_url: "https://github.com/s0kil/plug_minify_html",
+      source_url: "https://github.com/Miserlou/plug_minify_html_plus",
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
       description: description(),
@@ -24,10 +24,10 @@ defmodule PlugMinifyHtml.MixProject do
   defp package do
     [
       files: ["lib", "mix.exs", "README.md"],
-      maintainers: ["Daniel Sokil"],
+      maintainers: ["Rich Jones"],
       licenses: ["MIT"],
       links: %{
-        "GitHub" => "https://github.com/s0kil/plug_minify_html"
+        "GitHub" => "https://github.com/Miserlou/plug_minify_html_plus"
       }
     ]
   end
