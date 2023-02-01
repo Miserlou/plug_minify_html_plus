@@ -35,4 +35,8 @@ pipeline :browser do
 end
 ```
 
+## TODO:
+- CSS maybe?
+- Other types maybe?
+
 ### Resurrection Of [minify_response](https://github.com/gravityblast/minify_response)
