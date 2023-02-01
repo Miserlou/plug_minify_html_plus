@@ -12,7 +12,7 @@ by adding `plug_minify_html_plus` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:plug_minify_html, "~> 0.2.0"}
+    {:plug_minify_html_plus, "~> 0.2.0"}
   ]
 end
 ```
